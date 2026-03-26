@@ -1,15 +1,23 @@
-# ÚLOHA 1: Zvětšovač (použij +=)
-cislo = int(input("Zadej číslo: "))
-# Sem doplň kód:
+# 1. Zvětšovač
+cislo = int(input("3: "))
+cislo += 10
+print(f"Výsledek je: {cislo}")
+
+print()
 
 
-# ÚLOHA 2: Útrata (zaokrouhli na 2 místa)
-celkem = float(input("Celková suma (Kč): "))
-lidi = int(input("Počet lidí: "))
-# Sem doplň výpočet a print s round():
+# 2. Útrata v hospodě
+ucet = float(input("750: "))
+lidi = int(input("4: "))
+
+na_osobu = ucet / lidi
+print(f"Každý zaplatí: {na_osobu:.2f} Kč")
+
+print()
 
 
-# ÚLOHA 3: Plocha kruhu (zaokrouhli na celé číslo)
-r = float(input("Zadej poloměr: "))
-# plocha = 3.14 * r * r
-# Sem doplň kód:
+# 3. Plocha kruhu
+r = float(input("9: "))
+
+plocha = 3.14 * r * r
+print(f"Plocha kruhu je: {round(plocha)}")
